@@ -5,7 +5,7 @@ permalink: /
 title: On Computable Numbers, with an Application to the Entscheidungsproblem
 authors: A. M. Turing
 paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
-video: https://www.youtube.com/watch?v=PvLaPKPzq2I
+video: https://www.youtube.com/results?search_query=turing+machine
 code: https://github.com/topics/turing-machines
 ---
 
