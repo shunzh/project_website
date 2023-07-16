@@ -14,10 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# personal website that the top home icon links to
-homepage: 
-
-
 # Build settings
 markdown: kramdown
 
