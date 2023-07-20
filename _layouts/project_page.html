@@ -28,15 +28,21 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">{{ page.title }}</h1>
+          {% if page.authors %}
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               {{ page.authors }}
             </span>
           </div>
+          {% endif %}
 
-          <!-- <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-          </div> -->
+          {% if page.affiliations %}
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              {{ page.affiliations }}
+            </span>
+          </div>
+          {% endif %}
 
           <div class="column has-text-centered">
             <div class="publication-links">
@@ -74,6 +80,18 @@
                   </span>
                   <span>Code</span>
                   </a>
+              </span>
+              {% endif %}
+              <!-- Dataset Link. -->
+              {% if page.data %}
+              <span class="link-block">
+                <a href="{{ page.data }}"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-database"></i>
+                  </span>
+                  <span>Data</span>
+                </a>
               </span>
               {% endif %}
             </div>

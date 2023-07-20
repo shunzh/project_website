@@ -5,6 +5,3 @@ You only need to change the content of [index.md](/index.md).
 It's possible to only write in markdown, but you can also use HTML to achieve more fancy effects.
 
 Here is an [example website](https://shunzh.github.io/project_website/).
-
-TODOs:
-- [ ] Add author links and affiliations.
